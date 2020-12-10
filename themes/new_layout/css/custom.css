@@ -8,35 +8,27 @@
 
 /* Các tùy chỉnh CSS của giao diện nên để vào đây */
 
-@media (max-width:992px){
-    .hidden-langer
-    {
-        display:none !important;
+@media (max-width:991px) {
+    .hidden-langer {
+        display: none !important;
     }
-    .full-width
-    {
-        width:100% !important;
+
+    .full-width {
+        width: 100% !important;
     }
 }
-@media (min-width: 768px) and (max-width: 992px) {
-    .cackhoiduoi {
-        display: flex;
-        flex-flow: column;
-    }
-   .khoi8, .khoi10
-   {
-       display: block;
-    /* order: 2;
-    width: 50%; */
-   }
-   .khoi9 {
-    order: 1;
-    width: 100%;
-   }
-   .khoi10
-   {
-    /* order: 2;
-    width: 50%; */
-   }
 
+@media (min-width: 768px) and (max-width: 991px) {
+    .fleft{
+        display: inline;
+    }
+}
+.nv-block-banners{
+    margin-top: 10px;
+}
+.nv-block-banners a{
+    width: 100%;
+}
+.nv-block-banners a img{
+    width: 80%;
 }

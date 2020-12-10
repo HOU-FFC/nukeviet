@@ -8,7 +8,7 @@
 	<div class="hidden-langer col-xs-24 col-sm-6 col-md-6">
 		[ABOUT]
 	</div>
-	<div class="col-xs-24 col-sm-12 col-md-12">
+	<div class="col-xs-24 col-sm-24 col-md-12">
 		[NEWS]
 	</div>
 	<div class="hidden-langer col-xs-24 col-sm-6 col-md-6">
@@ -30,13 +30,13 @@
 	</div>
 </div>
 <div class="row cackhoiduoi">
-	<div class="col-xs-24 col-sm-6 col-md-6 khoi8">
-		[STATISTICS]
-	</div>
-	<div class="full-width col-xs-24 col-sm-12 col-md-12 khoi9">
+	<div class="full-width col-xs-24 col-sm-12 col-md-12  col-md-push-6">
 		[BOTTOM_ADS]
 	</div>
-	<div class="col-xs-24 col-md-6 khoi10">
+	<div class="col-xs-24 col-sm-12 col-md-6 col-md-pull-12 fleft">
+		[STATISTICS]
+	</div>
+	<div class="col-xs-24 col-sm-12 col-md-6 fleft">
 		[VOTING]
 	</div>
 </div>
