@@ -65,7 +65,7 @@
                         <div class="row">
                             <div class="bg">
                             <div class="clearfix">
-                                <div class="col-xs-24 col-sm-18 col-md-6">
+                                <div class="col-xs-24 col-sm-6 col-md-6">
                                     <!-- BEGIN: breadcrumbs -->
                                     <div class="breadcrumbs-wrap">
                                         <div class="display">
@@ -81,10 +81,8 @@
                                     <!-- END: breadcrumbs -->
                                     <!-- BEGIN: currenttime --><span class="current-time">{NV_CURRENTTIME}</span><!-- END: currenttime -->
                                 </div>
-                                <div class="col-xs-24 col-sm-18 col-md-12">
-                                    <div class="breadcrumbs-wrap">
-                                     <span class="current-time">Chào mừng bạn đến với website cuộc thi OLP Tin học 2020</span>
-                                    </div>
+                                <div class="col-xs-24 col-sm-12 col-md-12">
+                                    [WELCOME]
                                 </div>
                                 <div class="headerSearch col-xs-24 col-sm-6 col-md-6">
                                     <div class="input-group">
