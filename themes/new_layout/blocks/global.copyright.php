@@ -42,7 +42,6 @@ if (!nv_function_exists('nv_copyright_info')) {
         $html .= '<label class="control-label col-sm-6">' . $lang_global['siteterms_url'] . ':</label>';
         $html .= '<div class="col-sm-18"><input class="form-control" type="text" name="siteterms_url" value="' . nv_htmlspecialchars($data_block['siteterms_url']) . '"></div>';
         $html .= '</div>';
-
         return $html;
     }
 
