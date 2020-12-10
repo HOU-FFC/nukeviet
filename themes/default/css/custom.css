@@ -7,3 +7,16 @@
  */
 
 /* Các tùy chỉnh CSS của giao diện nên để vào đây */
+@media (min-width: 992px) {
+    .headerSearch
+   {
+       display:none;
+       background-color:red;
+   }
+   .current-time
+   {
+       display:none;
+            background-color:red;
+   }
+  
+}

@@ -666,7 +666,6 @@ if ($nv_Request->isset_request('nv_login', 'post')) {
             'mess' => ($global_config['captcha_type'] == 2 ? $lang_global['securitycodeincorrect1'] : $lang_global['securitycodeincorrect'])
         ]);
     }
-
     if (empty($nv_username)) {
         signin_result([
             'status' => 'error',
@@ -690,9 +689,7 @@ if ($nv_Request->isset_request('nv_login', 'post')) {
             'mess' => $lang_global['password_empty']
         ]);
     }
-
     if (defined('NV_IS_USER_FORUM') or defined('SSO_SERVER')) {
-        $error = '';
         require_once NV_ROOTDIR . '/' . $global_config['dir_forum'] . '/nukeviet/login.php';
         if (!empty($error)) {
             signin_result([
@@ -717,7 +714,6 @@ if ($nv_Request->isset_request('nv_login', 'post')) {
         }
 
         $row = $db->query($sql)->fetch();
-
         if (!empty($row)) {
             if ((($row['md5username'] == nv_md5safe($nv_username) and $login_email == false) or ($row['email'] == $nv_username and $login_email == true)) and $crypt->validate_password($nv_password, $row['password'])) {
                 if (!$row['active']) {
@@ -768,7 +764,6 @@ if ($nv_Request->isset_request('nv_login', 'post')) {
                     } else {
                         $error1 = '';
                     }
-
                     if (empty($error1)) {
                         validUserLog($row, 1, '');
                         $nv_Request->unset_request('users_dismiss_captcha', 'session');
@@ -781,7 +776,6 @@ if ($nv_Request->isset_request('nv_login', 'post')) {
         if ($global_config['login_number_tracking'] and (empty($row) or ($row['active'] and !empty($error1)))) {
             $blocker->set_loginFailed($nv_username, NV_CURRENTTIME);
         }
-
         if (!empty($error1)) {
             signin_result([
                 'status' => 'error',
@@ -806,7 +800,6 @@ if ($nv_Request->isset_request('nv_login', 'post')) {
             }
         }
     }
-
     signin_result([
         'status' => 'ok',
         'input' => '',
@@ -824,7 +817,7 @@ $page_title = $lang_module['login'];
 $key_words = $module_info['keywords'];
 $mod_title = $lang_module['login'];
 
-$contents = user_login();
+$contents = user_login(false, $nv_Request->get_title('ochu', 'get', ''));
 
 $full = empty($nv_header);
 

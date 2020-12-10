@@ -1,7 +1,7 @@
 .wraper {
     width:100%;
-}
-
+} 
+ 
 .site-banner {
     height: 0;
     padding-bottom: 22%;
@@ -371,7 +371,8 @@
     .wraper {
         width: 100%;
         max-width: 1080px;
-    }
+    } 
+   
 }
 
 @media (min-width: 1200px) {
