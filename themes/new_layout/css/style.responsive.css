@@ -372,6 +372,10 @@
         width: 100%;
         max-width: 1080px;
     }
+    .headerSearch
+    {
+        display: hidden;
+    }
 }
 
 @media (min-width: 1200px) {

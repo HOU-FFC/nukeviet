@@ -10,7 +10,7 @@
     <banners_item>
       <id>3</id>
       <title>Quang cao giua trang</title>
-      <clid>0</clid>
+      <clid>1</clid>
       <file_name>webnhanh.jpg</file_name>
       <imageforswf></imageforswf>
       <file_ext>png</file_ext>
@@ -21,7 +21,92 @@
       <file_click>http://webnhanh.vn</file_click>
       <target>_blank</target>
       <bannerhtml></bannerhtml>
-      <publ_time>1453191549</publ_time>
+      <publ_time>1607561960</publ_time>
+      <exp_time>0</exp_time>
+    </banners_item>
+    <banners_item>
+      <id>4</id>
+      <title>Quang cao giua trang</title>
+      <clid>1</clid>
+      <file_name>webnhanh.jpg</file_name>
+      <imageforswf></imageforswf>
+      <file_ext>png</file_ext>
+      <file_mime>image/jpeg</file_mime>
+      <file_width>575</file_width>
+      <file_height>72</file_height>
+      <file_alt></file_alt>
+      <file_click>http://webnhanh.vn</file_click>
+      <target>_blank</target>
+      <bannerhtml></bannerhtml>
+      <publ_time>1607561960</publ_time>
+      <exp_time>0</exp_time>
+    </banners_item>
+    <banners_item>
+      <id>5</id>
+      <title>Quang cao giua trang</title>
+      <clid>1</clid>
+      <file_name>webnhanh.jpg</file_name>
+      <imageforswf></imageforswf>
+      <file_ext>png</file_ext>
+      <file_mime>image/jpeg</file_mime>
+      <file_width>575</file_width>
+      <file_height>72</file_height>
+      <file_alt></file_alt>
+      <file_click>http://webnhanh.vn</file_click>
+      <target>_blank</target>
+      <bannerhtml></bannerhtml>
+      <publ_time>1607561960</publ_time>
+      <exp_time>0</exp_time>
+    </banners_item>
+    <banners_item>
+      <id>6</id>
+      <title>Quang cao giua trang</title>
+      <clid>1</clid>
+      <file_name>webnhanh.jpg</file_name>
+      <imageforswf></imageforswf>
+      <file_ext>png</file_ext>
+      <file_mime>image/jpeg</file_mime>
+      <file_width>575</file_width>
+      <file_height>72</file_height>
+      <file_alt></file_alt>
+      <file_click>http://webnhanh.vn</file_click>
+      <target>_blank</target>
+      <bannerhtml></bannerhtml>
+      <publ_time>1607561960</publ_time>
+      <exp_time>0</exp_time>
+    </banners_item>
+    <banners_item>
+      <id>7</id>
+      <title>Quang cao giua trang</title>
+      <clid>1</clid>
+      <file_name>webnhanh.jpg</file_name>
+      <imageforswf></imageforswf>
+      <file_ext>png</file_ext>
+      <file_mime>image/jpeg</file_mime>
+      <file_width>575</file_width>
+      <file_height>72</file_height>
+      <file_alt></file_alt>
+      <file_click>http://webnhanh.vn</file_click>
+      <target>_blank</target>
+      <bannerhtml></bannerhtml>
+      <publ_time>1607561960</publ_time>
+      <exp_time>0</exp_time>
+    </banners_item>
+    <banners_item>
+      <id>8</id>
+      <title>Quang cao giua trang</title>
+      <clid>1</clid>
+      <file_name>webnhanh.jpg</file_name>
+      <imageforswf></imageforswf>
+      <file_ext>png</file_ext>
+      <file_mime>image/jpeg</file_mime>
+      <file_width>575</file_width>
+      <file_height>72</file_height>
+      <file_alt></file_alt>
+      <file_click>http://webnhanh.vn</file_click>
+      <target>_blank</target>
+      <bannerhtml></bannerhtml>
+      <publ_time>1607561960</publ_time>
       <exp_time>0</exp_time>
     </banners_item>
   </banners>

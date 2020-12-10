@@ -5,13 +5,13 @@
 	[HEADER]
 </div>
 <div class="row">
-	<div class="col-xs-24 col-sm-6 col-md-6">
+	<div class="hidden-langer col-xs-24 col-sm-6 col-md-6">
 		[ABOUT]
 	</div>
 	<div class="col-xs-24 col-sm-12 col-md-12">
 		[NEWS]
 	</div>
-	<div class="col-xs-24 col-sm-6 col-md-6">
+	<div class="hidden-langer col-xs-24 col-sm-6 col-md-6">
 		[TOPHITS]
 	</div>
 </div>
@@ -21,10 +21,11 @@
 	</div>
 </div>
 <div class="row">
-	<div class="col-md-6">
+	<div class="hidden-langer col-sm-8 col-md-8" >
 		[LAWS]
 	</div>
-	<div class="col-md-18">
+	
+	<div class="full-width col-sm-16 col-md-16">
 		{MODULE_CONTENT}
 	</div>
 </div>
@@ -32,7 +33,7 @@
 	<div class="col-xs-24 col-sm-6 col-md-6">
 		[STATISTICS]
 	</div>
-	<div class="col-xs-24 col-sm-12 col-md-12">
+	<div class="full-width col-xs-24 col-sm-12 col-md-12">
 		[BOTTOM_ADS]
 	</div>
 	<div class="col-xs-24 col-sm-6 col-md-6">
@@ -41,7 +42,7 @@
 </div>
 <div class="row">
 	<div class="col-xs-24 col-sm-24 col-md-24">
-		[INTRO]
+		[SLIDE]
 	</div>
 </div>
 <div class="row">
