@@ -5,7 +5,8 @@
  * @Author VINADES.,JSC <contact@vinades.vn>
  * @Copyright (C) 2020 VINADES.,JSC. All rights reserved
  * @License GNU/GPL version 2 or any later version
- * @Createdate Thu, 10 Dec 2020 00:52:21 GMT
+ * @Createdate Thu, 10 Dec 2020 00:53:26 GMT
+
  */
 
 if (!defined('NV_MAINFILE')) {
@@ -62,9 +63,7 @@ $global_config['ftp_path']='/';
 $global_config['ftp_port']=21;
 $global_config['ftp_server']='localhost';
 $global_config['ftp_user_name']='';
-
 $global_config['ftp_user_pass']='3xEYvgovrdDHety-7TLjFQ,,';
-
 $global_config['gfx_chk']=3;
 $global_config['gzip_method']=1;
 $global_config['is_flood_blocker']=1;
@@ -95,6 +94,7 @@ $global_config['rewrite_exturl']='.html';
 $global_config['rewrite_op_mod']='';
 $global_config['rewrite_optional']=0;
 $global_config['session_prefix']='nv4s_t4ppEA';
+
 
 $global_config['site_keywords']='NukeViet, portal, mysql, php';
 $global_config['site_lang']='vi';
