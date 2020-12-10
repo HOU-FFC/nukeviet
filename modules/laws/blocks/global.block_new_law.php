@@ -44,6 +44,10 @@ if (!nv_function_exists('nv_law_block_newg')) {
         $html .= '<option value="up" ' . $sl . ' >' . $lang_block['direction_up'] . '</option>';
         $sl = $data_block['direction'] == 'down' ? 'selected="selected"' : '';
         $html .= '<option value="down" ' . $sl . ' >' . $lang_block['direction_down'] . '</option>';
+        $sl = $data_block['direction'] == 'left' ? 'selected="selected"' : '';
+        $html .= '<option value="left" ' . $sl . ' >' . $lang_block['direction_left'] . '</option>';
+        $sl = $data_block['direction'] == 'right' ? 'selected="selected"' : '';
+        $html .= '<option value="right" ' . $sl . ' >' . $lang_block['direction_right'] . '</option>';
         $html .= '</select></div>';
         $html .= '</div>';
         $html .= '<div class="form-group">';

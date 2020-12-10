@@ -10,8 +10,8 @@
     <banners_item>
       <id>2</id>
       <title>vinades</title>
-      <clid>0</clid>
-      <file_name>vinades.jpg</file_name>
+      <clid>1</clid>
+      <file_name>webnhanh.jpg</file_name>
       <imageforswf></imageforswf>
       <file_ext>jpg</file_ext>
       <file_mime>image/jpeg</file_mime>
@@ -21,7 +21,24 @@
       <file_click>http://vinades.vn</file_click>
       <target>_blank</target>
       <bannerhtml></bannerhtml>
-      <publ_time>1453191549</publ_time>
+      <publ_time>1607561960</publ_time>
+      <exp_time>0</exp_time>
+    </banners_item>
+    <banners_item>
+      <id>1</id>
+      <title>vinades</title>
+      <clid>1</clid>
+      <file_name>webnhanh.jpg</file_name>
+      <imageforswf></imageforswf>
+      <file_ext>jpg</file_ext>
+      <file_mime>image/jpeg</file_mime>
+      <file_width>212</file_width>
+      <file_height>400</file_height>
+      <file_alt></file_alt>
+      <file_click>http://vinades.vn</file_click>
+      <target>_blank</target>
+      <bannerhtml></bannerhtml>
+      <publ_time>1607561960</publ_time>
       <exp_time>0</exp_time>
     </banners_item>
   </banners>
