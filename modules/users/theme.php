@@ -268,7 +268,7 @@ function user_register($gfx_chk, $checkss, $data_questions, $array_field_config,
  * @param bool $is_ajax
  * @return
  */
-function user_login($is_ajax = false)
+function user_login($is_ajax = false, $ochu = '')
 {
     global $module_info, $global_config, $lang_global, $lang_module, $module_name, $op, $nv_header, $nv_redirect;
 
@@ -283,6 +283,7 @@ function user_login($is_ajax = false)
     $xtpl->assign('LANG', $lang_module);
     $xtpl->assign('GLANG', $lang_global);
     $xtpl->assign('TEMPLATE', $module_info['template']);
+    $xtpl->assign('OCHU', $ochu);
 
     if (in_array($global_config['gfx_chk'], array(
         2,

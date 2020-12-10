@@ -12,6 +12,10 @@ $key_words = $module_info['keywords'];
 
 //khoi tao
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> c6986b95a9324948950f6df7040e1138c2c77ed1
 // lay thong tin
 $now_page = $nv_Request->get_int( 'now_page', 'get', 0 );
 

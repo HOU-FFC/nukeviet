@@ -27,11 +27,18 @@
 	<input class="submit" type="submit" name="do" value="OK" />&nbsp;&nbsp;
 	<input class="submit" type="reset" name="clear" value="Xóa" />
 </p>
+<<<<<<< HEAD
 <input type="hidden" value='{thoigian}' name='thoigian'>
 
 </form>
 <p align="center">{DAPANDOC}</p>
 <p align="center">Lưu ý: bật Caps Lock khi gõ. Gõ tiếng Việt có dấu</p>
+=======
+</form>
+<p align="center">{DAPANDOC}</p>
+<p align="center">Lưu ý: bật Caps Lock khi gõ. Gõ tiếng Việt có dấu</p>
+	
+>>>>>>> c6986b95a9324948950f6df7040e1138c2c77ed1
 <script type="text/javascript">
 </script>
 <!-- END: main -->

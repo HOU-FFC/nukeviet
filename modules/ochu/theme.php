@@ -29,7 +29,11 @@ function nv_theme_samples_main ( $sql_data, $now_page, $db)
 	return $xtpl->text( 'main' );
 }
 
+<<<<<<< HEAD
 function nv_theme_onbai_test( $key, $suggest, $data, $info, $do , $checkdapandoc = false, $thoigian)
+=======
+function nv_theme_onbai_test( $key, $suggest, $data, $info, $do , $checkdapandoc = false)
+>>>>>>> c6986b95a9324948950f6df7040e1138c2c77ed1
 {
 	global $global_config, $module_name, $module_file, $lang_module, $module_config, $module_info, $module_data;
 	$xtpl = new XTemplate( "view.tpl", NV_ROOTDIR . "/themes/" . $module_info['template'] . "/modules/" . $module_file );
@@ -37,11 +41,16 @@ function nv_theme_onbai_test( $key, $suggest, $data, $info, $do , $checkdapandoc
 
 	$xtpl->assign( 'URL_IMG', NV_BASE_SITEURL . "themes/" . $module_info['template'] . "/images/ochu/arrow2.gif");
 	if($checkdapandoc){
+<<<<<<< HEAD
 		$diem = 240 - (time() - (int) $thoigian); 
 		$thongbao = 'Đáp án chính xác. Điểm của bạn: ' . $diem;
 		$xtpl->assign( 'DAPANDOC', $thongbao);		
 	}
 	$xtpl->assign( 'thoigian', $thoigian );		
+=======
+		$xtpl->assign( 'DAPANDOC', 'Đáp án chính xác' );		
+	}
+>>>>>>> c6986b95a9324948950f6df7040e1138c2c77ed1
 	// xu li key
 	$i = 0 ;
 	$max = $key[0];

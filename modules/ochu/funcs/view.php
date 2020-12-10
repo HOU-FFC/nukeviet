@@ -59,7 +59,11 @@ foreach ( $data as $stt => $tr )
 	$testarray[$stt] = $a ;
 }
 if($sodapandung > 3){ // check đáp án hàng dọc
+<<<<<<< HEAD
 	$checkdapandoc = 123;
+=======
+	$checkdapandoc = true;
+>>>>>>> c6986b95a9324948950f6df7040e1138c2c77ed1
 	foreach($data as $stt => $v){
 		$id = $nv_Request->get_title( "tr_".$stt."_td_".$key[$stt-1] , 'get,post', '' );
 		$_key = explode(',', $v);
@@ -71,11 +75,15 @@ if($sodapandung > 3){ // check đáp án hàng dọc
 	$checkdapandoc = false;
 }
 // goi ham
+<<<<<<< HEAD
 $thoigian = $nv_Request->get_title('thoigian', 'POST', '');
 if($thoigian == ''){
 	$thoigian = time();
 }
 $contents = nv_theme_onbai_test( $key, $suggest, $testarray, $info, $do , $checkdapandoc , $thoigian);
+=======
+$contents = nv_theme_onbai_test( $key, $suggest, $testarray, $info, $do , $checkdapandoc );
+>>>>>>> c6986b95a9324948950f6df7040e1138c2c77ed1
 include ( NV_ROOTDIR . "/includes/header.php" );
 echo nv_site_theme( $contents );
 include ( NV_ROOTDIR . "/includes/footer.php" );
