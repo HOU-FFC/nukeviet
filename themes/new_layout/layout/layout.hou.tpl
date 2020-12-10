@@ -29,14 +29,14 @@
 		{MODULE_CONTENT}
 	</div>
 </div>
-<div class="row">
-	<div class="col-xs-24 col-sm-6 col-md-6">
+<div class="row cackhoiduoi">
+	<div class="col-xs-24 col-sm-6 col-md-6 khoi8">
 		[STATISTICS]
 	</div>
-	<div class="full-width col-xs-24 col-sm-12 col-md-12">
+	<div class="full-width col-xs-24 col-sm-12 col-md-12 khoi9">
 		[BOTTOM_ADS]
 	</div>
-	<div class="col-xs-24 col-sm-6 col-md-6">
+	<div class="col-xs-24 col-md-6 khoi10">
 		[VOTING]
 	</div>
 </div>

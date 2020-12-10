@@ -19,13 +19,23 @@
     }
 }
 @media (min-width: 768px) and (max-width: 992px) {
+    .cackhoiduoi {
+        display: flex;
+        flex-flow: column;
+    }
    .khoi8
    {
-
+    order: 2;
+    width: 50%;
+   }
+   .khoi9 {
+    order: 1;
+    width: 100%;
    }
    .khoi10
    {
-       
+    order: 2;
+    width: 50%;
    }
 
 }

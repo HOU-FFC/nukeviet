@@ -18,12 +18,9 @@
 </script>
 <div id="blockid_{DATA.bid}">
 	<marquee behavior="scroll" scrollamount="{DATA.scroll}" direction="{DATA.direction}">
-		<!-- BEGIN: loop -->
-		<!-- BEGIN: newday -->
-		<img src="{NV_BASE_SITEURL}themes/{THEME}/images/{MODULE}/new.gif" alt="{ROW.title}" />
-		<!-- END: newday -->
-		<a href="{ROW.link}" title="{ROW.title}">{ROW.title}</a>&nbsp;&nbsp;&nbsp;&nbsp;
-		<!-- END: loop -->
+		<!-- BEGIN: text -->
+		
+		<!-- END: text -->
 	</marquee>
 </div>
 
