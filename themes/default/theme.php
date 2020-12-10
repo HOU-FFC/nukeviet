@@ -115,6 +115,14 @@ function nv_site_theme($contents, $full = true)
         ];
         $html_links[] = [
             'rel' => 'stylesheet',
+            'href' => NV_BASE_SITEURL . 'themes/' . $global_config['module_theme'] . '/css/owl.carousel.min.css'
+        ];        
+        $html_links[] = [
+            'rel' => 'stylesheet',
+            'href' => NV_BASE_SITEURL . 'themes/' . $global_config['module_theme'] . '/css/owl.theme.default.min.css'
+        ];        
+        $html_links[] = [
+            'rel' => 'stylesheet',
             'href' => NV_BASE_SITEURL . 'themes/' . $global_config['module_theme'] . '/css/style.css'
         ];
         $html_links[] = [
@@ -214,6 +222,12 @@ function nv_site_theme($contents, $full = true)
         'ext' => 1,
         'content' => NV_BASE_SITEURL . 'themes/' . $global_config['module_theme'] . '/js/main.js'
     ];
+
+    $html_js[] = [
+        'ext' => 1,
+        'content' => NV_BASE_SITEURL . 'themes/' . $global_config['module_theme'] . '/js/owl.carousel.js'
+    ];
+
     $html_js[] = [
         'ext' => 1,
         'content' => NV_BASE_SITEURL . 'themes/' . $global_config['module_theme'] . '/js/custom.js'

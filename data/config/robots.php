@@ -6,7 +6,7 @@
  * @Copyright (C) 2020 VINADES.,JSC. All rights reserved
  * @License GNU/GPL version 2 or any later version
  * @Createdate Thu, 10 Dec 2020 00:53:26 GMT
- */
+
 
 if ( ! defined( 'NV_MAINFILE' ) ) die( 'Stop!!!' );
 
